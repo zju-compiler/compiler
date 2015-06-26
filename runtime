@@ -1,0 +1,19 @@
+		old ra
+		old v1
+	 	old fp	
+	 	access link <---------------|	high
+	 	begin of stack				|
+	 								|
+	 								|
+	 								|
+	 								|
+		end of stack				|
+									|
+	 	old fp					 	|
+	 	access link      ------------	low
+fp-> 	begin of stack
+
+
+
+
+sp->	end of stack

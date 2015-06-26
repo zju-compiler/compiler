@@ -1,0 +1,167 @@
+In file included from main.cpp:1:
+./public.h:77:2: warning: control reaches end of non-void function [-Wreturn-type]
+        }
+        ^
+./public.h:111:34: warning: control reaches end of non-void function [-Wreturn-type]
+        virtual const string getType() {}
+                                        ^
+./public.h:134:71: warning: control reaches end of non-void function [-Wreturn-type]
+        virtual SymBucket* genSymItem(const string typeName, Symtab *symtab){}
+                                                                             ^
+./public.h:135:34: warning: control reaches end of non-void function [-Wreturn-type]
+        virtual const string getType() {}
+                                        ^
+./public.h:434:2: warning: control may reach end of non-void function [-Wreturn-type]
+        }
+        ^
+./public.h:440:2: warning: control may reach end of non-void function [-Wreturn-type]
+        }
+        ^
+./public.h:445:2: warning: control may reach end of non-void function [-Wreturn-type]
+        }
+        ^
+./public.h:451:2: warning: control may reach end of non-void function [-Wreturn-type]
+        }
+        ^
+8 warnings generated.
+In file included from scanner.l:2:
+./public.h:77:2: warning: control reaches end of non-void function [-Wreturn-type]
+        }
+        ^
+./public.h:111:34: warning: control reaches end of non-void function [-Wreturn-type]
+        virtual const string getType() {}
+                                        ^
+./public.h:134:71: warning: control reaches end of non-void function [-Wreturn-type]
+        virtual SymBucket* genSymItem(const string typeName, Symtab *symtab){}
+                                                                             ^
+./public.h:135:34: warning: control reaches end of non-void function [-Wreturn-type]
+        virtual const string getType() {}
+                                        ^
+./public.h:434:2: warning: control may reach end of non-void function [-Wreturn-type]
+        }
+        ^
+./public.h:440:2: warning: control may reach end of non-void function [-Wreturn-type]
+        }
+        ^
+./public.h:445:2: warning: control may reach end of non-void function [-Wreturn-type]
+        }
+        ^
+./public.h:451:2: warning: control may reach end of non-void function [-Wreturn-type]
+        }
+        ^
+scanner.cpp:802:2: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+        register yy_state_type yy_current_state;
+        ^~~~~~~~~
+scanner.cpp:803:2: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+        register char *yy_cp, *yy_bp;
+        ^~~~~~~~~
+scanner.cpp:803:2: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+        register char *yy_cp, *yy_bp;
+        ^~~~~~~~~
+scanner.cpp:804:2: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+        register int yy_act;
+        ^~~~~~~~~
+scanner.cpp:853:4: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+                        register YY_CHAR yy_c = yy_ec[YY_SC_TO_UI(*yy_cp)];
+                        ^~~~~~~~~
+scanner.cpp:1348:6: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+        register char *dest = YY_CURRENT_BUFFER_LVALUE->yy_ch_buf;
+        ^~~~~~~~~
+scanner.cpp:1349:2: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+        register char *source = (yytext_ptr);
+        ^~~~~~~~~
+scanner.cpp:1350:2: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+        register int number_to_move, i;
+        ^~~~~~~~~
+scanner.cpp:1350:2: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+        register int number_to_move, i;
+        ^~~~~~~~~
+scanner.cpp:1482:2: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+        register yy_state_type yy_current_state;
+        ^~~~~~~~~
+scanner.cpp:1483:2: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+        register char *yy_cp;
+        ^~~~~~~~~
+scanner.cpp:1489:3: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+                register YY_CHAR yy_c = (*yy_cp ? yy_ec[YY_SC_TO_UI(*yy_cp)] : 1);
+                ^~~~~~~~~
+scanner.cpp:1514:2: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+        register int yy_is_jam;
+        ^~~~~~~~~
+scanner.cpp:1515:6: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+        register char *yy_cp = (yy_c_buf_p);
+        ^~~~~~~~~
+scanner.cpp:1517:2: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+        register YY_CHAR yy_c = 1;
+        ^~~~~~~~~
+scanner.cpp:1537:2: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+        register char *yy_cp;
+        ^~~~~~~~~
+scanner.cpp:1547:3: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+                register yy_size_t number_to_move = (yy_n_chars) + 2;
+                ^~~~~~~~~
+scanner.cpp:1548:3: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+                register char *dest = &YY_CURRENT_BUFFER_LVALUE->yy_ch_buf[
+                ^~~~~~~~~
+scanner.cpp:1550:3: warning: 'register' storage class specifier is deprecated [-Wdeprecated-register]
+                register char *source =
+                ^~~~~~~~~
+27 warnings generated.
+In file included from parser.y:2:
+./public.h:77:2: warning: control reaches end of non-void function [-Wreturn-type]
+        }
+        ^
+./public.h:111:34: warning: control reaches end of non-void function [-Wreturn-type]
+        virtual const string getType() {}
+                                        ^
+./public.h:134:71: warning: control reaches end of non-void function [-Wreturn-type]
+        virtual SymBucket* genSymItem(const string typeName, Symtab *symtab){}
+                                                                             ^
+./public.h:135:34: warning: control reaches end of non-void function [-Wreturn-type]
+        virtual const string getType() {}
+                                        ^
+./public.h:434:2: warning: control may reach end of non-void function [-Wreturn-type]
+        }
+        ^
+./public.h:440:2: warning: control may reach end of non-void function [-Wreturn-type]
+        }
+        ^
+./public.h:445:2: warning: control may reach end of non-void function [-Wreturn-type]
+        }
+        ^
+./public.h:451:2: warning: control may reach end of non-void function [-Wreturn-type]
+        }
+        ^
+8 warnings generated.
+In file included from public.cpp:6:
+./public.h:77:2: warning: control reaches end of non-void function [-Wreturn-type]
+        }
+        ^
+./public.h:111:34: warning: control reaches end of non-void function [-Wreturn-type]
+        virtual const string getType() {}
+                                        ^
+./public.h:134:71: warning: control reaches end of non-void function [-Wreturn-type]
+        virtual SymBucket* genSymItem(const string typeName, Symtab *symtab){}
+                                                                             ^
+./public.h:135:34: warning: control reaches end of non-void function [-Wreturn-type]
+        virtual const string getType() {}
+                                        ^
+./public.h:434:2: warning: control may reach end of non-void function [-Wreturn-type]
+        }
+        ^
+./public.h:440:2: warning: control may reach end of non-void function [-Wreturn-type]
+        }
+        ^
+./public.h:445:2: warning: control may reach end of non-void function [-Wreturn-type]
+        }
+        ^
+./public.h:451:2: warning: control may reach end of non-void function [-Wreturn-type]
+        }
+        ^
+public.cpp:398:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+public.cpp:760:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+10 warnings generated.

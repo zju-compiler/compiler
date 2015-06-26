@@ -1,0 +1,6 @@
+ ProgramTreeNode 
+ RoutineTreeNode 
+ RoutineHead  CompoundStmtTreeNode 
+ a list of non const part:0  a list of non type part:0  a list of var_decl_list:1  a list of non routine part:0  a list of stmt:3 
+ VariableTreeNode:a  BinaryExprTreeNode  BinaryExprTreeNode  BinaryExprTreeNode 
+ NumberTreeNode  VariableTreeNode:a  NumberTreeNode  VariableTreeNode:a 

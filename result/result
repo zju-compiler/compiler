@@ -1,0 +1,65 @@
+test file: test/nyle.p
+======================yyparse end=========================
+======================print AST end=========================
+pu
+ru
+rhu
+non const part lu 
+non type part lu 
+var_decl_list lu 
+vu: 
+type name :a
+ env : 0x7fc4cbe00360
+non routine part lu 
+======================updateSymtab end=========================
+=========================typeCheck end=========================
+in printSymtab
+print a
+end printSymtab
+===========================begin gencode=======================
+pg
+rg
+a's size is 4
+emit R : + 30 29 0
+emit I op = - dst = 29 src = 29
+lg
+0
+lg
+3
+bg : =
+ng
+vg : a env : 0x7fc4cbe00360
+b = 0x7fc4cbc05660
+out select
+in select 0x7fc4cbe00360
+out select
+regL : -1 regR -2
+use reg $t0
+use reg $t1
+br = 0x7fc4cbc05750 bl = 0x7fc4cbc057d0
+immeR = 5 immeL = 0
+emit I op = = dst = 8 src = 0
+emit M op = store size = 4 offset = 0
+free $t1
+bg : =
+ng
+vg : a env : 0x7fc4cbe00360
+b = 0x7fc4cbc05660
+out select
+in select 0x7fc4cbe00360
+out select
+regL : -1 regR -2
+use reg $t1
+use reg $t2
+br = 0x7fc4cbc05750 bl = 0x7fc4cbc057d0
+immeR = 2 immeL = 0
+emit I op = = dst = 9 src = 0
+emit M op = store size = 4 offset = 0
+free $t2
+in call writeln
+ng
+out select
+emit I op = + dst = 4 src = 0
+emit I op = + dst = 29 src = 29
+lg
+0
